@@ -31,7 +31,7 @@ while True:
     
     if last_message_from_sender(chat_history):
         # Set the API endpoint and your API key
-        url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyATjzBlxzDeD7d3aMH7giduu6bNMVC8wrQ'
+        url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=gemini api key'
         headers = {
             'Content-Type': 'application/json',
         }
